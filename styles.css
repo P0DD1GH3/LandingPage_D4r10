@@ -1,0 +1,47 @@
+
+
+*,
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb; 
+
+}
+
+header{
+display: flex;
+background-color: #1f2937;
+height: 10%;
+}
+#header_thumb{
+    height: 50px;
+    border-radius: 50%;
+    justify-content: left;
+    padding: 10px;
+}
+
+header h1{
+    color: #e5e7eb;
+    font-size: 3.5em;
+}
+
+header,
+nav{
+    
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li{
+    list-style: none;
+    display: inline;
+    font-size: 24px;
+    padding: 10px;
+
+}
