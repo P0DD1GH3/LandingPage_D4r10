@@ -8,7 +8,9 @@
     <title>Artist Profile D4R1O</title>
   </head>
   <body>
-    <header>
+    
+    <!--nav bar-->
+    <header class="header">
       <img id="header_thumb" src="/img/thumblogo.jpg" />
       <h1>D4R1O</h1>
       <nav>
@@ -19,9 +21,11 @@
         </ul>
       </nav>
     </header>
+
+    <!--hero section left and right containers-->
     <main>
       <section class="hero_container">
-        <div class="right_box">
+        <div class="left_box">
           <h1>D4R1O'S Artist Profile</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
@@ -29,22 +33,29 @@
             eligendi suscipit doloribus eos ad excepturi, recusandae a
             exercitationem corrupti, similique perspiciatis veniam ducimus!
           </p>
+          <button type="button" class="youtubebtn">YouTube</button>
         </div>
-        <button type="button">YouTube</button>
-        <div class="left_box">
-          <img src="/img/d4r1o.jpg" alt="cover art" style="width: 300px" />
+        
+        <div class="right_box">
+          <img class="topright_img" src="/img/d4r1o.jpg" alt="cover art" />
         </div>
       </section>
 
+    <!--singles thumbnails and footers-->
+
       <section class="singles_container">
-        <img src="/img/d4r1o.jpg" alt="imagen tapa simple" class="thumbs" />
-        <p>Efectos de la Cuarentena y mi sociedad. Esta cancion ironicamente nos demuestra lo bien que podemos llegar a estar</p>
-        <img src="/img/lost souls.jpg" alt="imagen tapa simple almas perdidas" class="thumbs" />
-        <p>Almas Perdidas. Una quinta, un lugar, lleno de musica y encuentros donde la libre expresion es la moneda corriente</p>
-        <img src="/img/poor children.jpg" alt="imagen tapa simple pobres niños" class="thumbs" />
-        <p>Pobres Niños. Una critica a la cantidad de niños criados por la tecnologia, perdiendo raices culturales y localizacion del idioma</p>
-        <img src="/img/solo en blanco.jpg" alt="imagen tapa simple solo en blanco" class="thumbs" />
-        <p>Solo En Blanco. Un bloqueo creativo que genero creatividad, a libre interpretacion.</p>
+        <div class="single">
+            <img src="/img/d4r1o.jpg" alt="imagen tapa simple" class="thumbs" />
+            <p class="thumb_footer">Efectos de la Cuarentena y mi sociedad. Esta cancion ironicamente nos demuestra lo bien que podemos llegar a estar</p></div>
+        <div class="single">
+            <img src="/img/lost souls.jpg" alt="imagen tapa simple almas perdidas" class="thumbs" />
+            <p class="thumb_footer">Almas Perdidas. Una quinta, un lugar, lleno de musica y encuentros donde la libre expresion es la moneda corriente</p></div>
+        <div class="single">
+            <img src="/img/poor children.jpg" alt="imagen tapa simple pobres niños" class="thumbs" />
+        <p class="thumb_footer">Pobres Niños. Una critica a la cantidad de niños criados por la tecnologia, perdiendo raices culturales y localizacion del idioma</p></div>
+        <div class="single">
+            <img src="/img/solo en blanco.jpg" alt="imagen tapa simple solo en blanco" class="thumbs" />
+        <p class="thumb_footer">Solo En Blanco. Un bloqueo creativo que genero creatividad, a libre interpretacion.</p></div>
       </section>
 
       <section class="quote_container">
