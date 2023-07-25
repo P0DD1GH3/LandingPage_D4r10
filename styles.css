@@ -1,5 +1,5 @@
 :root {
-  --main-clr: #b92293aa;
+  --main-clr: #d02ba9aa;
   --main-ff: font-family: 'Roboto Mono', monospace;
 }
 
@@ -9,14 +9,13 @@ body {
   padding: 0;
   margin: 0;
   font-family: var(--main-ff)
-  box-sizing: border-box;
 }
 
 .header {
   justify-content: center;
   display: flex;
   background-color: #000000;
-  height: 10%;
+  
 }
 header ul li a {
   color: #ffffff55;
@@ -47,13 +46,14 @@ nav {
 header li {
   list-style: none;
   display: inline;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
   border: #fdfdfd 2px solid;
   border-radius: 10%;
   margin-right: 5px;
+
 }
 
 .hero_container {
@@ -79,7 +79,7 @@ header li {
 
 .youtubebtn {
   margin-top: 15px;
-  background-color: #c90717;
+  background-color: #a72c2c;
   color: #f1faee;
   padding: 5px;
   font-weight: bolder;
@@ -94,7 +94,7 @@ header li {
 }
 
 .singles_container {
-  background-color: #9f29a5;
+  background-color: #120a12;
   width: 100%;
   height: auto;
   display: flex;
@@ -105,19 +105,18 @@ header li {
 }
 .singles_container a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(247, 241, 246, 0.874);
 }
 
 .singles_container .single {
   width: 330px;
   height: 430px;
   border-radius: 8px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
+  box-shadow: 0 2px 2px rgba(5, 225, 111, 0.815);
   margin: 20px;
   text-align: center;
   transition: all 0.25s;
-  background-color: #ff6b01ab;
+  background-color: #000000;
 }
 
 .singles_container .single:hover {
@@ -126,14 +125,16 @@ header li {
 }
 
 .singles_container .single .thumbs {
+  border-radius: 10px;
   width: 330px;
   height: 220px;
 }
 
 .singles_container .single h4 {
+  padding: 10px;
   font-weight: 900;
-  font-size: large;
-  color: rgba(0, 0, 0, 0.9);
+  font-size: 1.5em;
+  color: rgba(183, 184, 185, 0.958);
 }
 
 .singles_container .single p {
@@ -143,4 +144,30 @@ header li {
   font-weight: 300;
   text-align: center;
   align-items: center;
+}
+
+footer {
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(255, 255, 255, 0.9);
+  background-color: rgba(100, 100, 100, 0.6);
+  padding: 5px;
+}
+
+.footcontainer {
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 2%;
+  text-align: center;
+}
+
+.social-icons {
+  font-size: 1.5rem;
+}
+
+.fab{
+  color: #6c7172;
+  font: inherit
+  
 }
