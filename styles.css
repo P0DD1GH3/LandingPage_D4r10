@@ -1,5 +1,5 @@
 :root {
-  --main-clr: #d02ba9aa;
+  --main-clr: #171717;
   --main-ff: font-family: 'Roboto Mono', monospace;
 }
 
@@ -14,16 +14,16 @@ body {
 .header {
   justify-content: center;
   display: flex;
-  background-color: #000000;
+  background-color: #f8f9f9;
   
 }
 header ul li a {
-  color: #ffffff55;
+  color: #171717;
   text-decoration: none;
 }
 
 #header_thumb {
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: #171717;
   height: 100px;
   border-radius: 50%;
   margin: 1rem;
@@ -50,7 +50,7 @@ header li {
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
-  border: #fdfdfd 2px solid;
+  border: #171717 2px solid;
   border-radius: 10%;
   margin-right: 5px;
 
@@ -63,24 +63,24 @@ header li {
   justify-content: space-around;
   align-items: center;
   display: flex;
-  background-color: #100f14;
+  background-color: #171717;
 }
 
 .left_box {
   width: 50%;
-  color: rgba(255, 255, 255, 0.5);
+  color: #f8f9f9; 
 }
 
 .left_box h1 {
   font-size: 2.5em;
   font-weight: bolder;
-  color: aliceblue;
+  color: #d02ba9aa;
 }
 
 .youtubebtn {
   margin-top: 15px;
-  background-color: #a72c2c;
-  color: #f1faee;
+  background-color: #f8f9f9;
+  color: #171717;
   padding: 5px;
   font-weight: bolder;
   font-size: 1.5em;
@@ -94,7 +94,7 @@ header li {
 }
 
 .singles_container {
-  background-color: #120a12;
+  background-color: #f8f9f9;
   width: 100%;
   height: auto;
   display: flex;
@@ -105,22 +105,22 @@ header li {
 }
 .singles_container a {
   text-decoration: none;
-  color: rgba(247, 241, 246, 0.874);
+  color: #f8f9f9;
 }
 
 .singles_container .single {
   width: 330px;
   height: 430px;
   border-radius: 8px;
-  box-shadow: 0 2px 2px rgba(145, 8, 157, 0.996);
+  box-shadow: 0 2px 2px #d02baa;
   margin: 20px;
   text-align: center;
   transition: all 0.25s;
-  background-color: #000000;
+  background-color: #171717;
 }
 
 .singles_container .single:hover {
-  transform: translateY(-15px);
+  transform: translateY(-5px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
@@ -134,7 +134,7 @@ header li {
   padding: 10px;
   font-weight: 900;
   font-size: 1.5em;
-  color: rgba(183, 184, 185, 0.958);
+  color: #f8f9f9;
 }
 
 .singles_container .single p {
@@ -151,8 +151,8 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  color: rgb(182 182 182 / 90%);
-  background-color: rgb(0 0 0);
+  color: #171717
+  background-color:#f8f9f9;
   padding: 5px;
 }
 
@@ -162,10 +162,14 @@ footer {
   text-align: center;
 }
 .footcontainer a{
+  font-weight: bold;
   text-decoration: none;
+  color: #d02baa;
 }
 .social-icons {
-  font-size: 1.5rem;
+  padding-top: 15px;
+  font-size: 2.5rem;
+  gap: 10px;
 }
 
 .fab{
