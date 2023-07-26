@@ -1,7 +1,4 @@
-:root {
-  --main-clr: #171717;
-  --main-ff: font-family: 'Roboto Mono', monospace;
-}
+
 
 *,
 html,
@@ -30,7 +27,7 @@ header ul li a {
 }
 
 header h1 {
-  color: var(--main-clr);
+  color: #171717;
   font-size: 4.5em;
   font-weight: bolder;
   font-family: "Rubik Vinyl", cursive;
@@ -67,14 +64,27 @@ header li {
 }
 
 .left_box {
+  font-size: 1.5rem;
   width: 50%;
   color: #f8f9f9; 
+  text-align: justify;
+  
 }
 
+
 .left_box h1 {
+  display: inline-block;
   font-size: 2.5em;
   font-weight: bolder;
-  color: #d02ba9aa;
+  color: #f8f9f9;
+  padding-left: 15px;
+}
+
+.left_box .pinkH1{
+  color: #d02baa;
+  text-align: justify;
+  display: inline-block;
+
 }
 
 .youtubebtn {
@@ -88,9 +98,10 @@ header li {
 }
 
 .topright_img {
-  width: 500px;
+  width: 400px;
   border-radius: 15px;
   box-shadow: 10px 10px var(--main-clr);
+  justify-content: left;
 }
 
 .singles_container {
@@ -152,8 +163,6 @@ footer {
   bottom: 0;
   width: 100%;
   color: #171717
-  background-color:#f8f9f9;
-  padding: 5px;
 }
 
 .footcontainer {
